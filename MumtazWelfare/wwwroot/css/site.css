@@ -1,0 +1,136 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    color: rgb(34, 60, 97);
+    text-align: center;
+}
+
+h4 {
+    color: rgb(34, 60, 97);
+}
+
+body {
+    background: rgb(202, 178, 130);
+    margin-bottom: 60px;
+}
+
+.myLink {
+    color: black !important;
+    font-family: sans-serif;
+}
+
+#flex {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 40%;
+    position: absolute;
+}
+
+.card {
+    position: relative;
+    width: 18rem;
+    height: 17rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+    background-position: center;
+    color: #ffff;
+}
+
+.img {
+    width: 25rem;
+}
+
+    .img img {
+        width: 100%;
+    }
+
+.gallery {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.container .card {
+    width: 18rem;
+    height: 17rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/sadqa bakra.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+
+.container .food {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/Mumtaz welfare 5.jpg');
+}
+
+.container .disp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/dispensary/dispensary4.png');
+}
+
+.container .well {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/Mumtaz welfare 11.jpg');
+}
+
+.container .pump {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/hand pump.jpg');
+}
+
+.container .rashan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/Rashan/Rashan1.jpg');
+}
+
+.container .aqeeqa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/aqeeqa .jpg');
+}
+
+.container .qurbani {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/img (1).jpg');
+}
+
+.container .makatib {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/Qurani Makatib/QM1.jpg');
+}
+
+.container .opening {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../GalaryPic/dispensary/dispensary12.jpg');
+}
+
+.container .card a {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+
+.imgcard img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.imgcard video {
+    width: 25rem;
+    height: 20rem;
+}
